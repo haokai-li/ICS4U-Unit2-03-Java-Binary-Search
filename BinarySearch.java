@@ -54,13 +54,13 @@ final class BinarySearch {
     */
     static int binarySearch(final int[] userArray, final int userNumber,
                           final int lowIndex, final int highIndex) {
-        int answer = -1;
+        int answer = -2;
 
-        if (lowIndex < highIndex) {
+        if (lowIndex > highIndex) {
             answer = -1;
         } else {
             final int measure = (lowIndex + highIndex) / 2;
-            if (userArray[measure] > userNumber) {
+            if (userArray[measure] < userNumber) {
                 answer = binarySearch(userArray, userNumber,
                                       measure + 1, highIndex);
             } else if (userArray[measure] > userNumber) {
