@@ -54,7 +54,7 @@ final class BinarySearch {
     */
     static int binarySearch(final int[] userArray, final int userNumber,
                           final int lowIndex, final int highIndex) {
-        int answer = -2;
+        int answer = -1;
 
         if (lowIndex > highIndex) {
             answer = -1;
