@@ -131,5 +131,6 @@ final class BinarySearch {
             System.out.println();
             System.out.println("ERROR: Invalid Input");
         }
+        System.out.println("\nDone.");
     }
 }
