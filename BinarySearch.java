@@ -46,10 +46,10 @@ final class BinarySearch {
     /**
     * Function finds the index of a number, using Binary Search recursively.
     *
-    * @param userArray
-    * @param userNumber
-    * @param lowIndex
-    * @param highIndex
+    * @param userArray totle array
+    * @param userNumber search number
+    * @param lowIndex start
+    * @param highIndex end
     * @return binarySearch
     */
     static int binarySearch(final int[] userArray, final int userNumber,
